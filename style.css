@@ -1,0 +1,107 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,500&family=Work+Sans:wght@300;400;500;600;700&display=swap');
+*{
+    text-decoration: none; 
+ }
+
+ .container{
+   margin: 0 auto; width: 65%;
+ }
+
+ h2{
+   line-height: 0%;
+ }
+ 
+ .person{
+   font-size: 3rem;
+ }
+
+ .navbar{
+    background:#fff; font-family: calibri; 
+ }
+
+ .navdiv{
+    display: flex; align-items: center; justify-content: space-between;
+ }
+
+ .logo a{
+    font-size: 23px; font-weight: 600; color:darkturquoise;
+ }
+
+ .nav{
+    list-style: none; 
+    display: flex;
+
+ }
+
+ li a{
+    color: black; font-size: 16px;font-weight: bold; margin-right: 25px;
+ }
+
+ .profile-container{
+    width: 100%;
+    /* margin-top: 0.5rem; */
+
+ }
+
+img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   border: 2px solid rgb(53, 53, 245)(0, 0, 255, 0.74);
+   border-radius: 1em;
+ }
+
+.p-img{
+   height: 200px;
+   width: 206px;
+
+ }
+
+ .profile-container p{
+   font-size: 14px;
+   font-weight: 400;
+   color: #444444;
+ }
+ .profile-container .research-agenda{
+    /* width: 70%; */
+ }
+
+ .flex{
+    /* display: flex; justify-content: space-between; */
+ }
+
+ .profile-container .name p{
+ /* gap: 8px; */
+ margin-top: -1.5rem;
+ }
+
+ 
+body{
+   /* font-family: 'Inter', sans-serif; */
+   font-family: "Work Sans",sans-serif;
+   line-height: 1.7;
+}
+
+.pp{
+   margin-top: 5rem;
+}
+
+.name p{
+   font-weight: 500;
+}
+
+.alvin{
+
+   display: flex; justify-content: space-between;
+}
+
+/* .unordered{
+   display: flex; 
+   flex-direction: column;
+   
+} */
+.unordered{
+   list-style-type: disc;
+}
